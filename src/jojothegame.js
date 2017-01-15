@@ -45,7 +45,7 @@ login({email: result.username, password: result.password}, function callback (er
 
 
     api.listen(function callback(err, event) {
-    	if(event.type = "message"){
+    	if(event.type == "message"){
 	    	if(event.body != undefined){
 	    		var indexID = allowedUsers.ID.indexOf(event.senderID);
 	    		if (indexID != -1){

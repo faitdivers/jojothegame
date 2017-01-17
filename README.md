@@ -1,7 +1,7 @@
 # jojothegame
 ### A pokemon-like game whose goal is to catch all the jojos through Facebook Messenger.
 
-This game uses the [facebook-chat-api](https://github.com/schmavery/facebook-chat-api) and does not uses a bot. The user who launches the game will himself be answering to the requests from the players.
+This game uses the [facebook-chat-api](https://github.com/schmavery/facebook-chat-api) and does not use a bot as the user who launches the game will himself be answering to the requests from the players.
 
 The game state will be kept while the process is running in the user's computer/server. In order to initiate it suffices to type the following command on the terminal:
 
